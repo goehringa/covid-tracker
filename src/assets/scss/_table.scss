@@ -1,0 +1,24 @@
+.table {
+  margin-top: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  color: #6a5d5d;
+
+  tr {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  td {
+    padding: 0.5rem;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #f3f2f8;
+  }
+
+  tr:hover {
+    // background-color: #a2b9ba;
+    background-color: rgb(90, 200, 250);
+  }
+}

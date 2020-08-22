@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+
+.app {
+  .main-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+
+  .left-container {
+    flex: 0.9;
+
+    .dropdown-container {
+      margin-bottom: 10px;
+      display: flex;
+    }
+  }
+  .right-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 400px;
+  }
+
+  .stats-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .app {
+    .main-container {
+      flex-direction: column;
+    }
+  }
+}
